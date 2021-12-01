@@ -1,0 +1,7 @@
+out/
+.idea/
+target/
+node_modules/
+*.lock
+web-app/cypress/screenshots
+web-app/cypress/videos

@@ -1,0 +1,6 @@
+cradle:
+  cabal:
+    - path: ./app/webapp
+      component: exe:webapp
+    - path: ./app/webapp0
+      component: exe:webapp0

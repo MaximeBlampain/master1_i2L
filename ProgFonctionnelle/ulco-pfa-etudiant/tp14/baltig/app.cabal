@@ -1,0 +1,62 @@
+name:                   app
+version:                0.1
+build-type:             Simple
+cabal-version:          >=1.10
+
+executable client
+    if !impl(ghcjs)
+        buildable:      False
+
+    ghcjs-options:      -dedupe -O2 -Wall -Wno-missing-home-modules
+    cpp-options:        -DGHCJS_BROWSER
+    default-language:   Haskell2010
+    hs-source-dirs:     src
+    main-is:            client.hs
+
+    other-modules:      Baltig.Action
+                        Baltig.Model
+                        Baltig.News
+                        Baltig.Routes
+                        Baltig.View
+                        Gitlab.Api
+
+    build-depends:      aeson,
+                        base,
+                        bytestring,
+                        containers,
+                        ghcjs-base,
+                        miso,
+                        network-uri,
+                        selda,
+                        servant,
+                        text
+
+executable server
+    if impl(ghcjs)
+        buildable:      False
+
+    ghcjs-options:      -O2 -Wall
+    default-language:   Haskell2010
+    hs-source-dirs:     src
+    main-is:            server.hs
+
+    other-modules:      Baltig.Action
+                        Baltig.Model
+                        Baltig.News
+                        Baltig.Routes
+                        Baltig.View
+                        Gitlab.Api
+
+    build-depends:      aeson,
+                        base,
+                        lucid,
+                        miso,
+                        network-uri,
+                        selda,
+                        selda-sqlite,
+                        servant,
+                        servant-server,
+                        text,
+                        wai-extra,
+                        warp
+

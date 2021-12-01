@@ -1,0 +1,6 @@
+cradle:
+  cabal:
+    - path: ./app/hspaint
+      component: exe:hspaint
+    - path: ./app/hspaint0
+      component: exe:hspaint0

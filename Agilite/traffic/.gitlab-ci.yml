@@ -1,0 +1,37 @@
+image: maven:3.6-jdk-11
+
+stages:
+  - build
+  - test
+  - sonarqube
+
+variables:
+  SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"
+  MAVEN_CLI_OPTS: "-s .m2/settings.xml --batch-mode"
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+  SONAR_TOKEN: "0f2252adea91fce7859cdef4e28e3f9d2fd22c80"
+  PROJECT_NAME: "projet-mblampain-tp2"
+  SONAR_HOST_URL: "http://51.254.210.97:9000"
+
+cache:
+  paths:
+    - target
+
+
+build:
+  stage: build
+  script:
+    - mvn compile
+
+test:
+  stage: test
+  script:
+    - mvn verify
+
+sonarqube:
+  stage: sonarqube
+  script:
+    - mvn verify sonar:sonar -Dsonar.login=${SONAR_TOKEN} -Dsonar.projectKey=${PROJECT_NAME} -Dsonar.host.url=${SONAR_HOST_URL} -Dsonar.qualitygate.wait=true
+  allow_failure: true
+  only:
+    - master

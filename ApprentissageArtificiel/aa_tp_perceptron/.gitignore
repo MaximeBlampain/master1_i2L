@@ -1,0 +1,5 @@
+venv
+.idea
+
+test.txt
+train.txt

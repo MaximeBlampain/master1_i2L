@@ -1,0 +1,27 @@
+# couleur de fond blanche
+fond 1.0 1.0 1.O
+# intensite de la source ambiante
+ambiant 1.0 1.0 1.0
+# source blanche
+source  -2 2 0  2.0 2.0 2.0
+# source blanche
+source  4 5 0  2.0 2.0 2.0
+# plan horizontal bleu 
+materiau 0.2 0.2 0.98  0.3 0.5 0.7 10
+plan 0 1 0 0.5
+#pyramide rouge
+materiau 0.8 0.2 0.2  0.1 0.5 0.5 100
+#base
+t -1 2 1  1 2 1  1 2 -1
+t -1 2 1  1 2 -1  -1 2 -1
+# face avant
+t -1 2 1  1 2 1  0 4 0
+#face droite
+t 1 2 1  1 2 -1  0 4 0
+# face arrière
+t 1 2 -1  -1 2 -1  0 4 0
+#  face gauche
+t -1 2 -1  -1 2 1  0 4 0
+
+
+

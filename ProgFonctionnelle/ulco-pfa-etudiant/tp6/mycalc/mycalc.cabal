@@ -1,0 +1,40 @@
+cabal-version:      2.2
+name:               mycalc
+version:            1.0
+build-type:         Simple
+license:            MIT
+
+common deps
+    ghc-options:        -Wall -Wno-orphans
+    default-language:   Haskell2010
+    build-depends:      base, megaparsec
+
+library
+    import:             deps
+    hs-source-dirs:     src
+    exposed-modules:    Mycalc.Codegen
+                        Mycalc.Syntax
+                        Mycalc.Parser.Megaparsec
+                        Mycalc.Parser.Monadic
+                        Mycalc.Parser.Parsec
+                        Mycalc.Parser.Recursive
+
+executable mycalc
+    import:             deps
+    hs-source-dirs:     app
+    main-is:            Main.hs
+    build-depends:      mycalc
+
+test-suite spec
+    import:             deps
+    main-is:            Spec.hs
+    hs-source-dirs:     test
+    type:               exitcode-stdio-1.0
+    build-depends:      mycalc, hspec
+    other-modules:      Mycalc.CodegenSpec
+                        Mycalc.SyntaxSpec
+                        Mycalc.Parser.MegaparsecSpec
+                        Mycalc.Parser.MonadicSpec
+                        Mycalc.Parser.ParsecSpec
+                        Mycalc.Parser.RecursiveSpec
+

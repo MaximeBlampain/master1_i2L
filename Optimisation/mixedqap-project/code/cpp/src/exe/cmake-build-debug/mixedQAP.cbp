@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mixedQAP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iteratedLocalSearch">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/iteratedLocalSearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 iteratedLocalSearch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iteratedLocalSearch/fast">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/iteratedLocalSearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 iteratedLocalSearch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hillClimber">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/hillClimber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 hillClimber"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hillClimber/fast">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/hillClimber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 hillClimber/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="randomSearch">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/randomSearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomSearch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="randomSearch/fast">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/randomSearch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomSearch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esSimple">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/esSimple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 esSimple"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esSimple/fast">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/esSimple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 esSimple/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t-eval">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/t-eval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 t-eval"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t-eval/fast">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/t-eval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 t-eval/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t-solution">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/t-solution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 t-solution"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t-solution/fast">
+				<Option output="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/t-solution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../evaluation"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../algo"/>
+					<Add directory="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/../operator"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 t-solution/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/esSimple.cpp">
+			<Option target="esSimple"/>
+		</Unit>
+		<Unit filename="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/hillClimbing.cpp">
+			<Option target="hillClimber"/>
+		</Unit>
+		<Unit filename="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/iteratedLocalSearch.cpp">
+			<Option target="iteratedLocalSearch"/>
+		</Unit>
+		<Unit filename="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/randomSearch.cpp">
+			<Option target="randomSearch"/>
+		</Unit>
+		<Unit filename="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/t-eval.cpp">
+			<Option target="t-eval"/>
+		</Unit>
+		<Unit filename="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/t-solution.cpp">
+			<Option target="t-solution"/>
+		</Unit>
+		<Unit filename="/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

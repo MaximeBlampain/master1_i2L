@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/evaluation/solution.h
+iostream
+-
+vector
+-
+
+/Users/nfourny/Documents/applications/mixedqap-project/code/cpp/src/exe/t-solution.cpp
+iostream
+-
+fstream
+-
+stdlib.h
+-
+solution.h
+-
+

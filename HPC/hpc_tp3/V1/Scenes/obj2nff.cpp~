@@ -1,0 +1,21 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+using namepsace std;
+
+int main(int argc, char *argv[]){
+
+  ifstream in(argv[1]);
+
+  if(!in.is_open()){
+    cerr << "erreur d'ouverture de " << argv[1] << endl;
+    return -1;
+  }
+
+  in >> s;
+  while(!in.eof()){
+    if(s=="v"){
+      
+  return 0;
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "60d9daf01c1d7a42b011123c",
+        "title": "Pâtes à la carbonara",
+        "description": "Promis, il n'y a pas de crème dans cette recette",
+        "steps": []
+    },
+    {
+        "_id": "60d9db1b1c1d7a42b011123d",
+        "title": "Pâtes à la bolognaise",
+        "description": "Nulla cursus lorem et nulla elementum, sed sollicitudin orci egestas.",
+        "steps": []
+    },
+    {
+        "_id": "60d9db791c1d7a42b011123e",
+        "title": "Lasagnes",
+        "description": "Aenean consequat urna massa, quis finibus ante semper id.",
+        "steps": []
+    },
+    {
+        "_id": "60d9db8d1c1d7a42b011123f",
+        "title": "Salade Caesar",
+        "description": "In vel nulla volutpat ante egestas ultrices a vitae turpis.",
+        "steps": []
+    },
+    {
+        "_id": "60d9de401c1d7a42b0111240",
+        "title": "Welsh complet",
+        "description": "Nullam accumsan quis ex et hendrerit. Aenean vitae nisi sit amet est suscipit vestibulum. ",
+        "steps": []
+    }
+]

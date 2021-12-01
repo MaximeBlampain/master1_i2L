@@ -1,0 +1,10 @@
+8 8 % taille du terrain
+8 % nombre de batiments
+3 3 % taille du batiment 1 (= hotel de ville )
+4 2 % taille du batiment 2
+3 5 % taille du batiment 3
+3 2 % taille du batiment 4
+1 5 % taille du batiment 5
+4 4 % taille du batiment 6
+4 3 % taille du batiment 7
+2 2 % taille du batiment 8

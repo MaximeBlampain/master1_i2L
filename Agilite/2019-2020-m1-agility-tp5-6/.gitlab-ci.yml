@@ -1,0 +1,22 @@
+image: maven:3-openjdk-8
+
+stages:
+  - cypress
+
+cypress:
+  stage: cypress
+  script:
+    - apt update
+    - apt-get -y install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4
+      libnss3 libxss1 libasound2 libxtst6 xauth xvfb netcat nodejs
+    - curl -o- -L https://yarnpkg.com/install.sh | bash
+    - export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+    - java -jar traffic.jar &
+    - echo "Waiting api to launch on 4567..."
+    - while ! nc -z localhost 4567; do sleep 1; done
+    - cd web-app
+    - yarn install
+    - yarn start &
+    - echo "Waiting app to launch on 3000..."
+    - while ! nc -z localhost 3000; do sleep 1; done
+    - ./node_modules/.bin/cypress run

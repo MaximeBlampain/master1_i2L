@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: ./app/todolist
+      component: exe:todolist
+    - path: ./app/todolist0
+      component: exe:todolist0
+            

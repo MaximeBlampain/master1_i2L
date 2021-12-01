@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/imgs/2048_logo.svg</file>
+        <file>qml/Main.qml</file>
+        <file>qml/Tile.qml</file>
+        <file>src/models/game.h</file>
+        <file>src/models/gameModel.h</file>
+        <file>src/exe/game.cpp</file>
+        <file>src/exe/gameModel.cpp</file>
+        <file>src/main.cpp</file>
+        <file>src/models/gameIARandom.h</file>
+        <file>src/models/gameIAHillClimbing.h</file>
+        <file>src/models/gameIAMontecarlo.h</file>
+        <file>src/models/gameIAExpectImax.h</file>
+        <file>src/models/gameIAMiniMax.h</file>
+        <file>src/models/gameIAMc.h</file>
+    </qresource>
+</RCC>

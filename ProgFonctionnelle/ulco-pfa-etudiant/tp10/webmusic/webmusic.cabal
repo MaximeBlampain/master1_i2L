@@ -1,0 +1,26 @@
+cabal-version:      2.2
+name:               webmusic
+version:            1.0
+build-type:         Simple
+license:            MIT
+
+common deps
+    ghc-options:        -Wall -O
+    default-language:   Haskell2010
+    build-depends:      base, lucid, scotty, text, text-show, wai-extra,
+                        selda, selda-postgresql, selda-sqlite,
+                        sqlite-simple, postgresql-simple
+
+library
+    import:             deps
+    hs-source-dirs:     src
+    exposed-modules:    View
+                        DbSqliteSimple DbSeldaSqlite
+                        DbSeldaPostgresql DbPostgresqlSimple
+
+executable webmusic
+    import:             deps
+    hs-source-dirs:     app
+    main-is:            Main.hs
+    build-depends:      webmusic
+

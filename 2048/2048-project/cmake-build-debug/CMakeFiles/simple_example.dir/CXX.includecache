@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/33681/Documents/Applications/2048-project/src/main.cpp
+iostream
+-
+fstream
+-
+models/game.h
+C:/Users/33681/Documents/Applications/2048-project/src/models/game.h
+
+C:/Users/33681/Documents/Applications/2048-project/src/models/game.h
+QObject
+-
+QStringList
+-
+

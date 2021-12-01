@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nfourny/CLionProjects/Projet-Glouton-2020/Building.h
+string
+-
+
+/Users/nfourny/CLionProjects/Projet-Glouton-2020/Game.h
+vector
+-
+Building.h
+/Users/nfourny/CLionProjects/Projet-Glouton-2020/Building.h
+
+/Users/nfourny/CLionProjects/Projet-Glouton-2020/main.cpp
+iostream
+-
+Game.h
+/Users/nfourny/CLionProjects/Projet-Glouton-2020/Game.h
+

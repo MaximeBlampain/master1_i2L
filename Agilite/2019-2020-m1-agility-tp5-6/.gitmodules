@@ -1,0 +1,6 @@
+[submodule "web"]
+	path = web
+	url = https://gitlab.com/jbuisine/2019-2020-m1-agility-tp5-6.git
+[submodule "previous"]
+	path = previous
+	url = https://gitlab.com/mblampain/traffic.git

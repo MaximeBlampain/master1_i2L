@@ -1,0 +1,5 @@
+nbOfBucket = 3;
+bucketsCapacity = [8,5,3];
+initialState = [8,0,0];
+finalState = [4,4,0];
+maxStep = 8;
