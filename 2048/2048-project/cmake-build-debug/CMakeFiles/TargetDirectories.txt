@@ -1,2 +1,0 @@
-C:/Users/33681/Documents/Applications/2048-project/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/33681/Documents/Applications/2048-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
